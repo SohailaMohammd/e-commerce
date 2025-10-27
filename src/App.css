@@ -33,6 +33,7 @@
   color: #4101a9 !important;
   padding: 10px 15px !important;
   font-weight: 500 !important;
+  transition: .4s all ease-in-out !important;
 }
 .btn-header:hover{
   background-color: #9100ff !important;
