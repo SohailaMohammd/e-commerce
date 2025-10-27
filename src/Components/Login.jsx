@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { LuUserRound } from "react-icons/lu";
 import { IoLockClosedOutline } from "react-icons/io5";
 import { MdOutlineEmail } from "react-icons/md";
 

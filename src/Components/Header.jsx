@@ -1,8 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { BsArrowBarRight } from "react-icons/bs";
-import { HiUserAdd } from "react-icons/hi";
 import { FaCartShopping } from "react-icons/fa6";
+import { IoIosLogIn } from "react-icons/io";
+import { CgLogIn } from "react-icons/cg";
+
 
 const Header = () => {
 
@@ -30,8 +31,8 @@ const Header = () => {
                             </li>
                         </ul>
                         <form class="d-flex justify-content-center">
-                            <NavLink to={"/login"}><button class="btn btn-header mx-2 btn-outline"  ><BsArrowBarRight className="me-2" />Login</button></NavLink>
-                            <NavLink to={"/register"}><button class="btn btn-header mx-2 btn-outline"  ><BsArrowBarRight className="me-2" />Register</button></NavLink>
+                            <NavLink to={"/login"}><button class="btn btn-header mx-2 btn-outline"  ><IoIosLogIn className="me-2" />Login</button></NavLink>
+                            <NavLink to={"/register"}><button class="btn btn-header mx-2 btn-outline"  ><CgLogIn className="me-2" />Register</button></NavLink>
                             <button class="btn btn-header mx-2 btn-outline" ><FaCartShopping className="me-2" />Cart(0)</button>
 
                         </form>
