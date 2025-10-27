@@ -23,6 +23,11 @@
   height: 100vh;
 
 }
+.navbar-brand{
+  color: #4101a9 !important;
+    font-weight: 600 !important;
+
+}
 .btn-header{
   border: 2px solid #9100ff !important;
   color: #4101a9 !important;
