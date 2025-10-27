@@ -8,14 +8,14 @@ const Register = () => {
 
     return (
         <div className="login d-flex justify-content-center align-items-center">
-            <div className="container login-con mt-5 p-4 " style={{ maxWidth: "500px" }}>
+            <div className="container login-con px-4" style={{ maxWidth: "500px" }}>
                 <h3 className="mt-5 mb-5" style={{ color: "white" }}>Register</h3>
 
                 <div className="mb-4 position-relative">
                     <label htmlFor="email" className="form-label text-white fw-semibold">
                         Full Name
                     </label>
-                    <input type="text" id="email" className="form-control input-text ps-5" placeholder="name@gmail.com" />
+                    <input type="text" id="email" className="form-control input-text ps-5" placeholder="Enter Your name" />
                     <LuUserRound className="userIcon" />
                 </div>
 
@@ -48,7 +48,7 @@ const Register = () => {
                         Remember me
                     </label>
                 </div>
-                <button type="button" class="btn login-btn d-flex justify-content-center fs-5">Log in</button>
+                <button type="button" class="btn login-btn d-flex justify-content-center fs-5">Register</button>
                 <p className="d-flex justify-content-center mt-4" style={{ color: "white" }}>Already have account?<NavLink className="signup ms-2"to={"/login"}>Sign in</NavLink></p>
             </div>
 

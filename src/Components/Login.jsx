@@ -9,7 +9,7 @@ const Login = () => {
     return (
         <div className="login d-flex justify-content-center align-items-center">
 
-            <div className="container login-con mt-5 p-4 " style={{ maxWidth: "500px" }}>
+            <div className="container login-con p-4 " style={{ maxWidth: "500px" }}>
                 <h3 className="mt-5" style={{ color: "white" }}> Login</h3>
                 <p className="mb-5" style={{ color: "white" }}>Welcome Back!</p>
 
