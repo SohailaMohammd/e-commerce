@@ -12,12 +12,12 @@ const Product = () => {
         fetch((`${api}/${params.productId}`))
             .then((res) => res.json())
             .then((data) => setproduct(data))
-    }, [])
+    }, [params.productId])
 
     return (
         <>
-        <ProductDetails pro={product} oneProduct = {true}/>
-        <ShowProducts/>
+            <ProductDetails pro={product} oneProduct={true} />
+            <ShowProducts />
         </>
     )
 

@@ -166,7 +166,7 @@ input:focus {
 }
 .button{
   transition: all 0.2s ease-in-out !important;
-  border: 2px solid var(--var-color) !important;
+  border: 3px solid var(--var-color) !important;
   color: white !important;
   background-color: var(--var-color) !important;
 }
