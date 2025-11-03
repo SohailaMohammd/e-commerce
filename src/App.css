@@ -1,3 +1,8 @@
+:root {
+  --var-color: #6f42c1;
+}
+
+
 .headerHome {
   font-size: calc(1.475rem + 2.5vw) !important;
   color: white;
@@ -23,26 +28,30 @@
   height: 100vh;
 
 }
-.navbar-brand{
-  color: #4101a9 !important;
-    font-weight: 600 !important;
+
+.navbar-brand {
+  color: var(--var-color) !important;
+  font-weight: 600 !important;
 
 }
-.btn-header{
-  border: 2px solid #9100ff !important;
-  color: #4101a9 !important;
+
+.btn-header {
+  border: 2px solid var(--var-color) !important;
+  color: var(--var-color) !important;
   padding: 10px 15px !important;
   font-weight: 500 !important;
   transition: .4s all ease-in-out !important;
 }
-.btn-header:hover{
-  background-color: #9100ff !important;
+
+.btn-header:hover {
+  background-color: var(--var-color) !important;
   color: white !important;
-  border: 2px solid #9100ff !important;
+  border: 2px solid var(--var-color) !important;
 
 }
+
 .login-btn {
-  background: linear-gradient(to left, #5babd9, #9100ff);
+  background: linear-gradient(to left, #5babd9, var(--var-color));
   border: none !important;
   width: 50%;
   color: white !important;
@@ -62,9 +71,10 @@
   border-radius: 10px !important;
   color: white !important;
 }
+
 .input-text::placeholder {
-  color: #ccc !important; 
-  opacity: 1 !important; 
+  color: #ccc !important;
+  opacity: 1 !important;
 }
 
 .userIcon {
@@ -87,6 +97,81 @@
   color: rgb(255, 255, 255) !important;
   font-weight: 500;
 }
-input:focus{
+
+input:focus {
   box-shadow: 0px 0px 9px 0px #5babd9;
+}
+
+.cardHome {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cardHome:hover {
+  box-shadow:  0px 0px 10px 1px #cdb3ff;
+}
+
+.card-text,
+.card-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+
+.card-title2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+
+.image {
+  height: 250px !important;
+  object-fit: contain !important;
+  padding: 10px;
+}
+.image2{
+   height: 350px !important;
+  object-fit: contain !important;
+  padding: 10px;
+}
+
+.oneCard {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-evenly !important;
+  flex-direction: unset !important;
+}
+
+.btn-move {
+  font-size: 14px !important;
+  background-color: var(--var-color) !important;
+  border: none !important;
+  color: white !important;
+  border-radius: 5px !important;
+}
+
+.btn-home {
+  background-color: var(--var-color) !important;
+  border: none !important;
+  color: white !important;
+  border-radius: 5px !important;
+  transition: all 0.4s ease-in-out !important;
+}
+.btn-home:hover{
+  box-shadow: 0px 7px 7px 0px #a7a7a896 !important;
+}
+.button{
+  transition: all 0.2s ease-in-out !important;
+  border: 2px solid var(--var-color) !important;
+  color: white !important;
+  background-color: var(--var-color) !important;
+}
+.button:hover{
+  background-color: white !important;
+  border: 3px solid var(--var-color) !important;
+  color: var(--var-color) !important;
 }
