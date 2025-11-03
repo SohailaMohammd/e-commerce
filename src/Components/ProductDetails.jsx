@@ -21,7 +21,7 @@ const ProductDetails = (props) => {
 
                                 <div className="d-flex  gap-3 justify-content-*-start align-items-center">
                                     <NavLink to={`/product/${pro.id}`} className="btn button me-3 ">Add to Cart</NavLink>
-                                    <NavLink to={`/product/${pro.id}`} className="btn button">Go to Cart</NavLink>
+                                    <NavLink to={``} className="btn button">Go to Cart</NavLink>
                                 </div>
                             </div>
                         </div>
@@ -39,7 +39,7 @@ const ProductDetails = (props) => {
 
                             <div className="d-flex btn-group gap-3 flex-wrap py-3 align-items-center">
                                 <NavLink to={`/product/${pro.id}`} type="button" className="btn btn-home ">Buy Now</NavLink>
-                                <NavLink to={`/product/${pro.id}`} type="button" className="btn btn-home ">Add to Cart</NavLink>
+                                <NavLink to={``} type="button" className="btn btn-home ">Add to Cart</NavLink>
                             </div>
                         </div>
                     </div>
